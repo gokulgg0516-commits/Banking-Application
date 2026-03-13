@@ -31,7 +31,14 @@ Before running this project, make sure you have the following installed:
 
 ## Setup Instructions
 
-### 1. Database Setup
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/gokulgg0516-commits/Banking-Application.git
+cd Banking-Application
+```
+
+### 2. Database Setup
 
 Open SQL Server Management Studio and create a new database. Update the connection string in `appsettings.json` in the backend project:
 
@@ -41,7 +48,7 @@ Open SQL Server Management Studio and create a new database. Update the connecti
 }
 ```
 
-### 2. Backend Setup
+### 3. Backend Setup
 
 Open a terminal in the backend project folder and run:
 
@@ -53,7 +60,7 @@ dotnet run
 
 The API will start at `https://localhost:7297`.
 
-### 3. Frontend Setup
+### 4. Frontend Setup
 
 Open a terminal in the frontend project folder and run:
 
